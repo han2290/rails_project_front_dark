@@ -13,5 +13,8 @@
 //Show
 //....
 
+//Create
+//= require tinymce.min
+
 //= require jquery.core
-//= jquery.app
+//= require jquery.app

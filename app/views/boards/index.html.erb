@@ -96,3 +96,10 @@
     <!-- end row -->
   </div> <!-- end container -->
 </div>
+
+<% content_for 'javascript_content' do %>
+  <%= javascript_include_tag params[:controller] %>
+  <script>
+    console.log('script');
+  </script>
+<% end %>
