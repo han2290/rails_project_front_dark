@@ -6,6 +6,12 @@
 //= require jquery.slimscroll
 //= require jquery.scrollTo.min
 
+// Mypage
+//= require dragula.min.js
+//= require custombox.min
+//= require legacy.min
+
+// Home
 //= require jquery.knob
 //= require morris.min
 //= require raphael-min
