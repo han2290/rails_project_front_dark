@@ -11,4 +11,8 @@ Rails.application.config.assets.version = '1.0'
 Rails.application.config.assets.precompile += %w( home.js 
                                                   home.scss 
                                                   boards.js 
-                                                  boards.scss)
+                                                  boards.scss
+                                                  mypages.js
+                                                  mypages.scss
+                                                  matchs.js
+                                                  matchs.scss)

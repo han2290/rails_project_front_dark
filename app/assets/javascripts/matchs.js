@@ -6,16 +6,10 @@
 //= require jquery.slimscroll
 //= require jquery.scrollTo.min
 
-// Mypage
+// match
 //= require dragula.min.js
 //= require custombox.min
 //= require legacy.min
-
-// Home
-//= require jquery.knob
-// morris.min
-//= require raphael-min
-// require jquery.dashboard
 
 //= require jquery.core
 //= require jquery.app

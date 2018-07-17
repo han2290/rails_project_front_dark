@@ -31,7 +31,14 @@
                             <div class="kanban-detail ml-2 p-1">
                                 <a href="#" class="badge badge-light text-primary pull-right">X</a>
                                 <h4 class="mb-1">로오오옹ㄹ</h4>
-                                <img class="thumb-sm rounded-circle"  src="<%= asset_path 'users/avatar-1.jpg' %>" >
+                                <div class="d-flex align-items-cente">
+                                    <img class="thumb-sm rounded-circle"  src="<%= asset_path 'users/avatar-1.jpg' %>" >
+                                    <a href="" data-toggle="tooltip" data-placement="top" title="" 
+                                    data-original-title="상세보기" class="ml-2">
+                                        <i class="mdi mdi-format-align-left text-light" style="font-size: 20px"></i>
+                                    </a>
+                                </div>
+                                
                             </div>
                         </div>
                     </li>
@@ -40,7 +47,13 @@
                             <div class="kanban-detail ml-2 p-1">
                                 <a href="#" class="badge badge-light text-primary  pull-right">X</a>
                                 <h4 class="mb-1">오버워치</h4>
-                                <img class="thumb-sm rounded-circle"  src="<%= asset_path 'users/avatar-1.jpg' %>" >
+                                <div class="d-flex align-items-cente">
+                                    <img class="thumb-sm rounded-circle"  src="<%= asset_path 'users/avatar-1.jpg' %>" >
+                                    <a href="" data-toggle="tooltip" data-placement="top" title="" 
+                                    data-original-title="상세보기" class="ml-2">
+                                        <i class="mdi mdi-format-align-left text-light" style="font-size: 20px"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </li>
@@ -49,12 +62,19 @@
                             <div class="kanban-detail ml-2 p-1">
                                 <a href="#" class="badge badge-light text-primary  pull-right">X</a>
                                 <h4 class="mb-1">배애앵그</h4>
-                                <img class="thumb-sm rounded-circle"  src="<%= asset_path 'users/avatar-1.jpg' %>" >
+                                <div class="d-flex align-items-cente">
+                                    <img class="thumb-sm rounded-circle"  src="<%= asset_path 'users/avatar-1.jpg' %>" >
+                                    <a href="#gameviewbox" class="ml-2"
+                                    data-animation="fadein" data-plugin="custommodal" data-overlayspeed="200" 
+                                    data-overlaycolor="#36404a">
+                                        <i class="mdi mdi-format-align-left text-light" style="font-size: 20px"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </li>
                     <li class="">
-                        <button href="#custom-modal" class="btn btn-primary form-control"
+                        <button href="#gameaddbox" class="btn btn-primary form-control"
                         data-animation="fadein" data-plugin="custommodal" data-overlayspeed="200" 
                         data-overlaycolor="#36404a">
                             추가
@@ -70,7 +90,8 @@
   </div> <!-- container -->
 </div> <!-- content -->
 
-<%=render 'custombox' %>
+<%=render 'gameaddbox' %>
+<%=render 'gameviewbox' %>
 
 <!-- Javascript contents -->
 <% content_for 'javascript_content' do %>

@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
   resources :boards
+  
   root 'home#index'
-  get '/mypage' => 'home#mypage'
-
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  
+  get '/mypage'       =>  'mypages#index'
+  get '/match'        =>  'matchs#index'
 end
